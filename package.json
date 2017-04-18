@@ -1,6 +1,6 @@
 {
   "name": "readme-template",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "",
   "main": "index.js",
   "bin": {
@@ -22,5 +22,14 @@
   "bugs": {
     "url": "https://github.com/WindomZ/readme-template/issues"
   },
-  "homepage": "https://github.com/WindomZ/readme-template#readme"
+  "homepage": "https://github.com/WindomZ/readme-template#readme",
+  "dependencies": {
+    "commander": "^2.9.0"
+  },
+  "devDependencies": {
+    "ava": "^0.19.1",
+    "coveralls": "^2.13.0",
+    "nyc": "^10.2.0",
+    "standard": "*"
+  }
 }
