@@ -1,0 +1,30 @@
+{
+  "init": {
+    "input": {
+      "user": {
+        "tag": "${user}",
+        "desc": "desc: init/input#user",
+        "type": "string",
+        "default": ""
+      },
+      "repo": {
+        "tag": "${repo}",
+        "desc": "desc: init/input#repo",
+        "type": "string",
+        "default": ""
+      },
+      "repo-url": {
+        "tag": "${repo-url}",
+        "desc": "desc: init/input#repo-url",
+        "type": "string",
+        "default": ""
+      },
+      "npm": {
+        "tag": "${npm}",
+        "desc": "desc: init/input#npm",
+        "type": "string",
+        "default": ""
+      }
+    }
+  }
+}

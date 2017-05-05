@@ -1,0 +1,1 @@
+The [MIT License](https://github.com/${user}/${repo}/blob/master/LICENSE)

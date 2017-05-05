@@ -1,0 +1,34 @@
+{
+  "input": {
+    "title": {
+      "desc": "please input title:",
+      "type": "string",
+      "default": ""
+    },
+    "description": {
+      "desc": "please input description:",
+      "type": "string",
+      "default": ""
+    },
+    "installation": {
+      "desc": "please input installation:",
+      "type": "boolean",
+      "default": "Installation"
+    },
+    "usage": {
+      "desc": "please input usage:",
+      "type": "boolean",
+      "default": "Usage"
+    },
+    "example": {
+      "desc": "please input example:",
+      "type": "boolean",
+      "default": "Example"
+    },
+    "license": {
+      "desc": "please input license:",
+      "type": "boolean",
+      "default": "License"
+    }
+  }
+}

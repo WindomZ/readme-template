@@ -1,0 +1,11 @@
+{
+  "license": {
+    "simple": {
+      "desc": "desc: license/simple",
+      "items": {
+        "MIT": "simple/simple-MIT.md",
+        "Apache-2.0": "simple/simple-Apache-2.0.md"
+      }
+    }
+  }
+}

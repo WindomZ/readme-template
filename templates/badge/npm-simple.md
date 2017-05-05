@@ -1,0 +1,1 @@
+[![NPM](https://nodei.co/npm/${npm}.png)](https://nodei.co/npm/${npm}/)

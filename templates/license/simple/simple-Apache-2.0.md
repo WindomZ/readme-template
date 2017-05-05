@@ -1,0 +1,1 @@
+The [Apache License 2.0](https://github.com/${user}/${repo}/blob/master/LICENSE)

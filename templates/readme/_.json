@@ -1,0 +1,17 @@
+{
+  "readme": {
+    "nodejs": {
+      "name": "Node.js - Node.js repository style",
+      "value": "nodejs",
+      "short": "Node.js",
+      "items": {
+        "simple1": {
+          "name": "Simple Node.js style A",
+          "value": "simple1",
+          "short": "Node.js > SimpleA",
+          "file": "nodejs-simple1.md"
+        }
+      }
+    }
+  }
+}

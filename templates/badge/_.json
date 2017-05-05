@@ -1,0 +1,67 @@
+{
+  "badge": {
+    "travis-ci": {
+      "desc": "https://travis-ci.org/",
+      "items": {
+        "default": {
+          "desc": "this is travis-ci default",
+          "file": "travis-ci.md"
+        }
+      }
+    },
+    "license": {
+      "desc": "licenses",
+      "items": {
+        "MIT": {
+          "desc": "this is license MIT",
+          "file": "license-MIT.md"
+        }
+      }
+    },
+    "david-dm": {
+      "desc": "david-dm",
+      "items": {
+        "default": {
+          "desc": "this is david-dm default",
+          "file": "david-dm.md"
+        }
+      }
+    },
+    "standardjs": {
+      "desc": "standardjs",
+      "items": {
+        "default": {
+          "desc": "this is standardjs default",
+          "file": "standardjs.md"
+        }
+      }
+    },
+    "npm": {
+      "desc": "npm",
+      "items": {
+        "simple": {
+          "desc": "this is npm simple",
+          "file": "npm-simple.md"
+        }
+      }
+    },
+    "npm-version": {
+      "desc": "npm-version",
+      "items": {
+        "default": {
+          "desc": "this is npm-version",
+          "file": "npm-version.md"
+        }
+      }
+    },
+    "status": {
+      "desc": "status",
+      "items": {
+        "stable": {
+          "desc": "this is status stable",
+          "file": "status-stable.md"
+        }
+      }
+    }
+  }
+}
