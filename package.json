@@ -1,10 +1,11 @@
 {
   "name": "readme-template",
   "version": "0.0.1",
-  "description": "",
+  "description": "Generate some common README.md templates for GitHub.",
+  "preferGlobal": true,
   "main": "index.js",
   "bin": {
-    "readme-template": "readme-template.js"
+    "readme-template": "./bin/readme-template.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -24,7 +25,9 @@
   },
   "homepage": "https://github.com/WindomZ/readme-template#readme",
   "dependencies": {
-    "commander": "^2.9.0"
+    "co": "^4.6.0",
+    "commander": "^2.9.0",
+    "inquirer": "^3.0.6"
   },
   "devDependencies": {
     "ava": "^0.19.1",

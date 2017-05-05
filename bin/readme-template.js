@@ -4,33 +4,46 @@
  */
 'use strict'
 
-const process = require('process')
-
 const program = require('commander')
 
 const pkg = require('../package.json')
+
+const readme = require('../lib/readme')
 
 let noArgs = true
 
 program
   .version(pkg.version)
-  .usage('[options] <template>')
   .description('Generate some common README.md templates for GitHub.')
   .option('--debug', 'debug mode, such as print error tracks', null, null)
-  .action((template, options) => {
+
+program
+  .command('init [file]')
+  .alias('create')
+  .description('Generate one of the list optional README.md templates to generate them.')
+  .action((options) => {
     noArgs = false
 
-    console.log('template: %s', template)
+    console.log('init')
   })
 
 program
-  .command('list')
+  .command('list [class]')
   .alias('ls')
   .description('List the optional README.md templates to generate them.')
   .action((options) => {
     noArgs = false
 
     console.log('list')
+  })
+
+program
+  .command('show')
+  .description('Show the specified template.')
+  .action((options) => {
+    noArgs = false
+
+    readme(options)
   })
 
 program.parse(process.argv)
