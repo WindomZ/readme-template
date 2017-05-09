@@ -44,6 +44,8 @@ program
     noArgs = false
 
     readme(options)
+      .then()
+      .catch(e => console.error(e))
   })
 
 program.parse(process.argv)

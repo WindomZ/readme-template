@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/WindomZ/readme-template#readme",
   "dependencies": {
+    "async": "^2.4.0",
     "co": "^4.6.0",
     "commander": "^2.9.0",
     "inquirer": "^3.0.6"
