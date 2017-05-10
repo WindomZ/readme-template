@@ -2,25 +2,25 @@
   "input": {
     "user": {
       "name": "${user}",
-      "description": "desc: init/input#user",
+      "description": "git user:",
       "type": "string",
       "default": ""
     },
     "repo": {
       "name": "${repo}",
-      "description": "desc: init/input#repo",
+      "description": "git repository:",
       "type": "string",
       "default": ""
     },
     "repo-url": {
       "name": "${repo-url}",
-      "description": "desc: init/input#repo-url",
+      "description": "git repository URL:",
       "type": "string",
       "default": ""
     },
     "npm": {
       "name": "${npm}",
-      "description": "desc: init/input#npm",
+      "description": "npm:",
       "type": "string",
       "default": ""
     }
